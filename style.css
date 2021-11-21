@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: midnightblue;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    
+}
+
+.levelRow {
+    margin: 20px;
+    
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .easy {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid white;
+}
+
+.medium {
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+    border: 1px solid white; 
+}
+
+.hard {
+    width: calc(100% / 5);
+    height: calc(100% / 5);
+    border: 1px solid white;
+} */
+
+.active {
+    background-color: dodgerblue;
+}
+
+.bomb {
+    background-color: red;
+}
